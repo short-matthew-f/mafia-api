@@ -1,0 +1,23 @@
+{
+  "name": "mafia-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/short-matthew-f/mafia-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/short-matthew-f/mafia-api/issues"
+  },
+  "homepage": "https://github.com/short-matthew-f/mafia-api#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
