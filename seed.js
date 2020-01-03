@@ -12,7 +12,7 @@ const makeUser = () => ({
 })
 
 const makeUsers = () => {
-  for(let i = 0; i < 50; i++) {
+  for(let i = 0; i < 15; i++) {
     USERS.push(makeUser())
   }
 }
@@ -34,7 +34,7 @@ const makePost = (userId) => ({
 
 const makePosts = () => {
   USERS.forEach(user => {
-    for(let i = 0; i < 3 + Math.floor(8 * Math.random()); i++) {
+    for(let i = 0; i < 2 + Math.floor(5 * Math.random()); i++) {
       POSTS.push(makePost(user.id))
     }
   })
