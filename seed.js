@@ -34,7 +34,7 @@ const makePost = (userId) => ({
 
 const makePosts = () => {
   USERS.forEach(user => {
-    for(let i = 0; i < 2 + Math.floor(3 * Math.random()); i++) {
+    for(let i = 0; i < 1 + Math.floor(2 * Math.random()); i++) {
       POSTS.push(makePost(user.id))
     }
   })
